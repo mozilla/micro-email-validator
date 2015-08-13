@@ -9,7 +9,7 @@ From teh codez:
 // Function to validate an email address.
 // This is a transliteration of the HTML5 email-validation logic
 // inside Firefox.  It splits the username and domain portions,
-// translates tham into IDN punycode syntax, then does some very
+// translates them into IDN punycode syntax, then does some very
 // basic sanity-checking.
 ```
 
