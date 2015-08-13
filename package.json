@@ -1,0 +1,27 @@
+{
+  "name": "micro-email-validator",
+  "version": "0.0.1",
+  "description": "Function to validate an email address. Transliteration of the HTML5 email-validation logic inside Firefox.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozilla/micro-email-validator.git"
+  },
+  "keywords": [
+    "email",
+    "validation",
+    "html5"
+  ],
+  "author": "Jared Hirsch <ohai@6a68.net> (http://6a68.net)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/mozilla/micro-email-validator/issues"
+  },
+  "homepage": "https://github.com/mozilla/micro-email-validator#readme",
+  "dependencies": {
+    "punycode": "^1.3.2"
+  }
+}
