@@ -5,7 +5,7 @@ Transliteration of html5 email validator in Firefox
 
 From teh codez:
 
-```
+```js
 // Function to validate an email address.
 // This is a transliteration of the HTML5 email-validation logic
 // inside Firefox.  It splits the username and domain portions,
@@ -15,7 +15,7 @@ From teh codez:
 
 ## How to use it?
 
-```
+```js
 var validate = require('micro-email-validator');
 
 validate('user@example.com'); // returns true
@@ -27,7 +27,7 @@ validate('例子@example.com'); // returns true, yay
 
 Please note, however, that these rules are more liberal than you might think:
 
-```
+```js
 validate('wow_such@unsatisfy'); // returns true
 
 validate('wat@'); // returns true
