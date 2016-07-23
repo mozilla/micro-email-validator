@@ -8,7 +8,7 @@
 // translates them into IDN punycode syntax, then does some very
 // basic sanity-checking.
 
-var punycode = require('punycode');
+var punycode = require('punycode')
 
 module.exports = function(value) {
   // It cant be empty or end with strange chars.
@@ -45,8 +45,7 @@ module.exports = function(value) {
       if (domain[i - 1] === '.' || domain[i - 1] === '-') {
         return false
       }
-    }
-    else if (domain[i] === '-') {
+    } else if (domain[i] === '-') {
       // A dash can't follow a dot.
       if (domain[i - 1] === '.') {
         return false
@@ -57,4 +56,4 @@ module.exports = function(value) {
     }
   }
   return true
-};
+}
