@@ -20,7 +20,7 @@ module.exports = function(value) {
   }
   // It must contain an '@' somewhere in the middle.
   var atPos = value.indexOf('@')
-  if (atPos === -1 || atPos === 0 || atPos === value.length) {
+  if (atPos === -1 || atPos === 0 || atPos === value.length - 1) {
     return false
   }
   var username = value.substring(0, atPos)
